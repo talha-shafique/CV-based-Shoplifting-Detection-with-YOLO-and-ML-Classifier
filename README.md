@@ -5,7 +5,7 @@
 *   [Overall Project Goal](#overall-project-goal)
 *   [Key Technologies and Libraries Used](#key-technologies-and-libraries-used)
 *   [Project Pipeline](#project-pipeline)
-    *   [Phase 1: Data Acquisition & Manual Annotation](#phase-1-data-acquisition--manual-annotation)
+    *   [Phase 1: Data Acquisition & Annotation Management](#phase-1-data-acquisition--annotation-management)
     *   [Phase 2: Feature Engineering for Behavioral Analysis](#phase-2-feature-engineering-for-behavioral-analysis)
     *   [Phase 3: Machine Learning Model Training](#phase-3-machine-learning-model-training)
     *   [Phase 4: Automated Object Detection (YOLO Fine-tuning)](#phase-4-automated-object-detection-yolo-fine-tuning)
@@ -25,7 +25,7 @@
 ---
 
 ## **Problem Statement**
-This project addresses the critical need for automated surveillance solutions in retail environments. Traditional surveillance relies on constant human monitoring of video feeds, are inefficient, costly, and prone to human error, leading to missed shoplifting incidents. This system provides an intelligent, automated approach to identify and flag suspicious behaviors, significantly enhancing security operations.
+The project addresses the critical need for automated surveillance solutions in retail environments. Traditional surveillance relies on constant human monitoring of video feeds, are inefficient, costly, and prone to human error, leading to missed shoplifting incidents. This system provides an intelligent, automated approach to identify and flag suspicious behaviors, significantly enhancing security operations.
 
 ## **Overall Project Goal**
 To design, develop, and implement a complete, end-to-end machine learning pipeline for shoplifting anomaly detection in surveillance video. This project culminates in a user-friendly desktop application, showcasing practical skills in computer vision, machine learning experimentation, and software development for real-world AI solutions.
@@ -49,6 +49,8 @@ This project leverages a robust set of tools and libraries, demonstrating profic
 
 ## **Project Pipeline**
 This project showcases the development of a complete image and video processing pipeline, from raw data to a deployable application.
+
+<img src="assets/pipeline.png" alt="Project Pipeline Diagram" width="700">
 
 ### **Phase 1: Data Acquisition & Manual Annotation**
 *   **Process:** Surveillance video clips (categorized as "normal" and "shoplifting") were acquired. Frames were extracted to facilitate detailed annotation.
@@ -88,7 +90,7 @@ The Random Forest model was trained to classify frames as "normal" or "shoplifti
 **Overall Accuracy:** 0.9730
 
 **Confusion Matrix:**
-|   Actual/Predicted     | Predicted Normal | Predicted Shoplifting |
+|  Actual/Predicted      | Predicted Normal | Predicted Shoplifting |
 | :---------------       | :--------------- | :-------------------- |
 | **Actual Normal**      | 51               | 2                     |
 | **Actual Shoplifting** | 0                | 21                    |
@@ -103,19 +105,19 @@ The Random Forest model was trained to classify frames as "normal" or "shoplifti
 | **Weighted Avg**| 0.98      | 0.97   | 0.97     | 74      |
 
 *   **Visual Representation:**
-    ![Random Forest Confusion Matrix](assets/rf_confusion_matrix.png){width="700"}
+    <img src="assets/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix" width="700">
 
 ### **YOLOv8 Object Detection Model Performance**
 The custom-trained YOLOv8 model's performance was rigorously evaluated during its fine-tuning process, demonstrating strong object detection capabilities for the defined classes.
 
 *   **Training Results Plot:** This plot summarizes various metrics (e.g., Box Loss, Objectness Loss, Classification Loss, Precision, Recall, mAP) over the training epochs, illustrating the model's learning progress and convergence.
-    ![YOLO Training Results](assets/results.png){width="700"}
+    <img src="assets/results.png" alt="YOLO Training Results" width="700">
 
 *   **Confusion Matrix:** This matrix shows how well the YOLO model classified each object (`person`, `object`, `bag`), indicating true positives, false positives, and false negatives.
-    ![YOLO Confusion Matrix](assets/confusion_matrix.png){width="700"}
+    <img src="assets/confusion_matrix.png" alt="YOLO Confusion Matrix" width="700">
 
 *   **Precision-Recall (PR) Curves:** These curves illustrate the trade-off between precision and recall for the YOLO model, a key metric for object detection performance.
-    ![YOLO Precision-Recall Curve](assets/BoxPR_curve.png){width="700"}
+    <img src="assets/BoxPR_curve.png" alt="YOLO Precision-Recall Curve" width="700">
 
 ## **Project Outcomes & Deliverables**
 This project successfully delivers a robust and functional AI solution:
