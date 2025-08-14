@@ -50,9 +50,11 @@ This project leverages a robust set of tools and libraries, demonstrating profic
 ## **Project Pipeline**
 This project showcases the development of a complete image and video processing pipeline, from raw data to a deployable application.
 
-<img src="assets/pipeline.png" alt="Project Pipeline Diagram" width="700">
+<div align="center">
+<img src="assets/pipeline.png" alt="Project Pipeline Diagram" width="500">
+</div>
 
-### **Phase 1: Data Acquisition & Manual Annotation**
+### **Phase 1: Data Acquisition & Annotation Management**
 *   **Process:** Surveillance video clips (categorized as "normal" and "shoplifting") were acquired. Frames were extracted to facilitate detailed annotation.
 *   **Annotation:** Utilized **CVAT** for meticulous manual annotation, drawing bounding boxes for `person`, `object` (products), and `bag`. Crucially, the `occluded` flag was used to mark objects hidden in bags, providing vital ground truth for shoplifting events.
 *   **Output:** Exported task-level `.zip` files containing `annotations.xml`.
@@ -90,14 +92,14 @@ The Random Forest model was trained to classify frames as "normal" or "shoplifti
 **Overall Accuracy:** 0.9730
 
 **Confusion Matrix:**
-|  Actual/Predicted      | Predicted Normal | Predicted Shoplifting |
-| :---------------       | :--------------- | :-------------------- |
-| **Actual Normal**      | 51               | 2                     |
+| Actual/Predicted | Predicted Normal | Predicted Shoplifting |
+| :--------------- | :--------------- | :-------------------- |
+| **Actual Normal**    | 51               | 2                     |
 | **Actual Shoplifting** | 0                | 21                    |
 
 **Classification Report:**
-|    Class        | Precision | Recall | F1-Score | Support |
-| :----------     | :-------- | :----- | :------- | :------ |
+| Class       | Precision | Recall | F1-Score | Support |
+| :---------- | :-------- | :----- | :------- | :------ |
 | **Normal**      | 1.00      | 0.96   | 0.98     | 53      |
 | **Shoplifting** | 0.91      | 1.00   | 0.95     | 21      |
 | **Accuracy**    |           |        | 0.97     | 74      |
@@ -105,19 +107,27 @@ The Random Forest model was trained to classify frames as "normal" or "shoplifti
 | **Weighted Avg**| 0.98      | 0.97   | 0.97     | 74      |
 
 *   **Visual Representation:**
+    <div align="center">
     <img src="assets/rf_confusion_matrix.png" alt="Random Forest Confusion Matrix" width="700">
+    </div>
 
 ### **YOLOv8 Object Detection Model Performance**
 The custom-trained YOLOv8 model's performance was rigorously evaluated during its fine-tuning process, demonstrating strong object detection capabilities for the defined classes.
 
 *   **Training Results Plot:** This plot summarizes various metrics (e.g., Box Loss, Objectness Loss, Classification Loss, Precision, Recall, mAP) over the training epochs, illustrating the model's learning progress and convergence.
+    <div align="center">
     <img src="assets/results.png" alt="YOLO Training Results" width="700">
+    </div>
 
 *   **Confusion Matrix:** This matrix shows how well the YOLO model classified each object (`person`, `object`, `bag`), indicating true positives, false positives, and false negatives.
+    <div align="center">
     <img src="assets/confusion_matrix.png" alt="YOLO Confusion Matrix" width="700">
+    </div>
 
 *   **Precision-Recall (PR) Curves:** These curves illustrate the trade-off between precision and recall for the YOLO model, a key metric for object detection performance.
+    <div align="center">
     <img src="assets/BoxPR_curve.png" alt="YOLO Precision-Recall Curve" width="700">
+    </div>
 
 ## **Project Outcomes & Deliverables**
 This project successfully delivers a robust and functional AI solution:
