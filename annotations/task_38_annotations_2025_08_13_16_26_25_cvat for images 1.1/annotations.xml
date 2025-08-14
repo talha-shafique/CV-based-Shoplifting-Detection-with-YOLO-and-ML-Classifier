@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>38</id>
+      <name>norrmal-5</name>
+      <size>12</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-08-13 16:24:24.843538+00:00</created>
+      <updated>2025-08-13 16:26:25.904803+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>11</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>38</id>
+          <start>0</start>
+          <stop>11</stop>
+          <url>http://localhost:8080/api/jobs/38</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>talha_shafique</username>
+        <email>talhashafique101@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>object</name>
+          <color>#40e020</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bag</name>
+          <color>#8b8135</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2025-08-14 07:15:16.453100+00:00</dumped>
+  </meta>
+  <image id="0" name="normal-6_frame_0001.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="169.33" ytl="140.83" xbr="310.74" ybr="480.00" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="normal-6_frame_0002.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="169.33" ytl="140.83" xbr="326.52" ybr="480.00" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="normal-6_frame_0003.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="169.33" ytl="140.83" xbr="342.30" ybr="480.00" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="normal-6_frame_0004.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="168.61" ytl="140.83" xbr="341.58" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="274.85" ytl="198.97" xbr="327.25" ybr="243.48" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="normal-6_frame_0005.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="167.89" ytl="140.83" xbr="340.86" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="262.64" ytl="204.00" xbr="315.04" ybr="248.50" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="normal-6_frame_0006.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="167.17" ytl="140.83" xbr="340.15" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="294.23" ytl="273.60" xbr="346.63" ybr="302.30" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="normal-6_frame_0007.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="normal-6_frame_0008.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="normal-6_frame_0009.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="303.56" ytl="175.28" xbr="364.57" ybr="252.81" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="normal-6_frame_0010.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="307.15" ytl="181.74" xbr="368.16" ybr="259.27" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="normal-6_frame_0011.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="310.74" ytl="188.20" xbr="371.75" ybr="265.73" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="normal-6_frame_0012.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="166.45" ytl="140.83" xbr="339.43" ybr="480.00" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="315.80" ytl="269.30" xbr="347.30" ybr="313.07" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="340.90" ytl="246.30" xbr="374.60" ybr="314.54" z_order="0">
+    </box>
+  </image>
+</annotations>

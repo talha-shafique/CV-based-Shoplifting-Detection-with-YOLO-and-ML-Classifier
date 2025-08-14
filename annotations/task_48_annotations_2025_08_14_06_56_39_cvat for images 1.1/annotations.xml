@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>48</id>
+      <name>Shoplifting-7</name>
+      <size>11</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-08-14 06:52:03.243041+00:00</created>
+      <updated>2025-08-14 06:56:39.161689+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>10</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>48</id>
+          <start>0</start>
+          <stop>10</stop>
+          <url>http://localhost:8080/api/jobs/48</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>talha_shafique</username>
+        <email>talhashafique101@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>bag</name>
+          <color>#8b8135</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>object</name>
+          <color>#40e020</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2025-08-14 07:16:41.163236+00:00</dumped>
+  </meta>
+  <image id="0" name="shoplifting-26_frame_0001.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="150.39" ytl="148.41" xbr="306.97" ybr="479.28" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="203.04" ytl="249.54" xbr="283.04" ybr="398.60" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="306.97" ytl="308.41" xbr="322.77" ybr="338.43" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="321.40" ytl="360.38" xbr="342.53" ybr="378.09" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="shoplifting-26_frame_0002.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="150.39" ytl="148.41" xbr="286.50" ybr="479.28" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="203.04" ytl="258.08" xbr="285.96" ybr="409.37" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="268.00" ytl="259.86" xbr="283.79" ybr="289.88" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="314.39" ytl="332.17" xbr="335.52" ybr="349.88" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="shoplifting-26_frame_0003.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="150.39" ytl="148.41" xbr="311.10" ybr="479.28" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="203.04" ytl="266.62" xbr="288.87" ybr="420.15" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="307.38" ytl="303.97" xbr="328.51" ybr="321.68" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="shoplifting-26_frame_0004.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="150.39" ytl="148.41" xbr="335.70" ybr="479.28" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="203.04" ytl="275.16" xbr="291.79" ybr="430.92" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="300.38" ytl="275.76" xbr="321.50" ybr="293.47" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="shoplifting-26_frame_0005.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="125.78" ytl="148.41" xbr="311.08" ybr="479.28" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="203.04" ytl="283.70" xbr="294.70" ybr="441.70" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="293.37" ytl="247.56" xbr="314.50" ybr="265.27" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="shoplifting-26_frame_0006.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="121.33" ytl="148.07" xbr="282.05" ybr="478.94" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="192.44" ytl="286.43" xbr="284.10" ybr="444.43" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="235.93" ytl="276.27" xbr="257.06" ybr="293.98" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="shoplifting-26_frame_0007.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="116.89" ytl="147.73" xbr="253.01" ybr="478.60" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="181.85" ytl="289.17" xbr="273.50" ybr="447.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="236.61" ytl="332.34" xbr="257.74" ybr="350.05" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.42" ytl="361.06" xbr="365.16" ybr="373.98" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="shoplifting-26_frame_0008.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="132.61" ytl="147.04" xbr="349.40" ybr="477.91" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="181.84" ytl="289.17" xbr="295.40" ybr="447.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="236.61" ytl="332.34" xbr="257.74" ybr="350.05" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="343.21" ytl="329.95" xbr="360.38" ybr="349.69" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="shoplifting-26_frame_0009.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="132.61" ytl="147.04" xbr="349.40" ybr="477.91" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="181.84" ytl="289.17" xbr="295.40" ybr="447.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="236.61" ytl="332.34" xbr="257.74" ybr="350.05" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="335.01" ytl="298.84" xbr="355.60" ybr="325.40" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="shoplifting-26_frame_0010.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="132.61" ytl="147.04" xbr="349.40" ybr="477.91" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="181.84" ytl="289.17" xbr="295.40" ybr="447.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="236.61" ytl="332.34" xbr="257.74" ybr="350.05" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="318.60" ytl="359.01" xbr="339.19" ybr="385.57" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="shoplifting-26_frame_0011.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="132.61" ytl="147.04" xbr="349.40" ybr="477.91" z_order="0">
+    </box>
+    <box label="bag" source="manual" occluded="0" xtl="181.84" ytl="289.17" xbr="295.40" ybr="447.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="240.65" ytl="295.42" xbr="256.45" ybr="325.44" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="1" xtl="236.61" ytl="332.34" xbr="257.74" ybr="350.05" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="318.60" ytl="359.01" xbr="339.19" ybr="385.57" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="248.92" ytl="284.48" xbr="268.75" ybr="302.87" z_order="0">
+    </box>
+  </image>
+</annotations>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>41</id>
+      <name>normal-8</name>
+      <size>44</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-08-13 16:33:34.473364+00:00</created>
+      <updated>2025-08-13 16:36:06.997751+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>43</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>41</id>
+          <start>0</start>
+          <stop>43</stop>
+          <url>http://localhost:8080/api/jobs/41</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>talha_shafique</username>
+        <email>talhashafique101@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>bag</name>
+          <color>#8b8135</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>person</name>
+          <color>#c06060</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>object</name>
+          <color>#40e020</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2025-08-14 07:15:51.118411+00:00</dumped>
+  </meta>
+  <image id="0" name="normal-19_frame_0001.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="375.35" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="normal-19_frame_0002.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="372.88" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="normal-19_frame_0003.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="370.41" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="normal-19_frame_0004.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="367.94" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="normal-19_frame_0005.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="365.47" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="normal-19_frame_0006.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.71" xbr="363.00" ybr="475.93" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="normal-19_frame_0007.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.75" xbr="363.00" ybr="475.97" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="normal-19_frame_0008.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.79" xbr="363.00" ybr="476.01" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="normal-19_frame_0009.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.82" xbr="363.00" ybr="476.04" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="normal-19_frame_0010.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.86" xbr="363.00" ybr="476.08" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="normal-19_frame_0011.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.90" xbr="363.00" ybr="476.12" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="normal-19_frame_0012.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.94" xbr="363.00" ybr="476.16" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="normal-19_frame_0013.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="149.97" xbr="363.00" ybr="476.20" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="350.60" ytl="290.05" xbr="377.76" ybr="313.88" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="normal-19_frame_0014.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.01" xbr="363.00" ybr="476.23" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="340.88" ytl="272.20" xbr="368.04" ybr="296.03" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="normal-19_frame_0015.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.05" xbr="363.00" ybr="476.27" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="329.04" ytl="265.18" xbr="356.20" ybr="289.01" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="normal-19_frame_0016.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.09" xbr="363.00" ybr="476.31" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="331.67" ytl="256.42" xbr="358.83" ybr="280.25" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="normal-19_frame_0017.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.12" xbr="363.00" ybr="476.35" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="331.67" ytl="248.52" xbr="358.83" ybr="272.35" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="normal-19_frame_0018.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.16" xbr="363.00" ybr="476.38" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="333.17" ytl="251.31" xbr="360.33" ybr="275.36" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="normal-19_frame_0019.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.20" xbr="363.00" ybr="476.42" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="334.66" ytl="254.10" xbr="361.82" ybr="278.37" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="normal-19_frame_0020.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.24" xbr="363.00" ybr="476.46" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="336.16" ytl="256.89" xbr="363.32" ybr="281.38" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="normal-19_frame_0021.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.27" xbr="363.00" ybr="476.50" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="337.65" ytl="259.68" xbr="364.81" ybr="284.39" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="normal-19_frame_0022.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.31" xbr="363.00" ybr="476.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="339.15" ytl="262.47" xbr="366.31" ybr="287.40" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="normal-19_frame_0023.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.35" xbr="363.00" ybr="476.57" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="340.64" ytl="265.26" xbr="367.80" ybr="290.41" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="normal-19_frame_0024.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.39" xbr="363.00" ybr="476.61" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="342.13" ytl="268.05" xbr="369.30" ybr="293.42" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="normal-19_frame_0025.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.42" xbr="363.00" ybr="476.65" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="343.63" ytl="270.84" xbr="370.79" ybr="296.43" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="normal-19_frame_0026.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.46" xbr="363.00" ybr="476.68" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="345.12" ytl="273.63" xbr="372.28" ybr="299.44" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="normal-19_frame_0027.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.50" xbr="363.00" ybr="476.72" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="346.62" ytl="276.42" xbr="373.78" ybr="302.44" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="normal-19_frame_0028.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.54" xbr="363.00" ybr="476.76" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="348.11" ytl="279.21" xbr="375.27" ybr="305.45" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="normal-19_frame_0029.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.57" xbr="363.00" ybr="476.80" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="349.61" ytl="282.00" xbr="376.77" ybr="308.46" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="normal-19_frame_0030.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.61" xbr="363.00" ybr="476.83" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="351.10" ytl="284.79" xbr="378.26" ybr="311.47" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="normal-19_frame_0031.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.65" xbr="363.00" ybr="476.87" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="352.60" ytl="287.58" xbr="379.76" ybr="314.48" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="normal-19_frame_0032.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.69" xbr="363.00" ybr="476.91" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="354.09" ytl="290.37" xbr="381.25" ybr="317.49" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="normal-20_frame_0001.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.72" xbr="363.00" ybr="476.95" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="355.59" ytl="293.16" xbr="382.75" ybr="320.50" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="normal-20_frame_0002.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.76" xbr="363.00" ybr="476.98" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="357.08" ytl="295.95" xbr="384.24" ybr="323.51" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="normal-20_frame_0003.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.80" xbr="363.00" ybr="477.02" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="358.58" ytl="298.74" xbr="385.74" ybr="326.52" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="normal-20_frame_0004.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.84" xbr="363.00" ybr="477.06" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="360.07" ytl="301.53" xbr="387.23" ybr="329.53" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="normal-20_frame_0005.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.88" xbr="363.00" ybr="477.10" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="361.56" ytl="304.32" xbr="388.72" ybr="332.53" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="normal-20_frame_0006.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.91" xbr="363.00" ybr="477.13" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="363.06" ytl="307.11" xbr="390.22" ybr="335.54" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="normal-20_frame_0007.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.95" xbr="363.00" ybr="477.17" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="364.55" ytl="309.90" xbr="391.71" ybr="338.55" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="normal-20_frame_0008.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="150.99" xbr="363.00" ybr="477.21" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="337.37" ytl="276.14" xbr="364.53" ybr="304.79" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="normal-20_frame_0009.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="151.03" xbr="363.00" ybr="477.25" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="365.43" ytl="314.28" xbr="392.59" ybr="342.94" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="normal-20_frame_0010.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="151.03" xbr="363.00" ybr="477.25" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="365.43" ytl="314.28" xbr="392.59" ybr="342.94" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="normal-20_frame_0011.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="151.03" xbr="363.00" ybr="477.25" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="365.43" ytl="314.28" xbr="392.59" ybr="342.94" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="normal-20_frame_0012.jpg" width="640" height="480">
+    <box label="person" source="manual" occluded="0" xtl="252.34" ytl="151.03" xbr="363.00" ybr="477.25" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="359.69" ytl="268.75" xbr="382.87" ybr="342.53" z_order="0">
+    </box>
+    <box label="object" source="manual" occluded="0" xtl="365.43" ytl="314.28" xbr="392.59" ybr="342.94" z_order="0">
+    </box>
+  </image>
+</annotations>

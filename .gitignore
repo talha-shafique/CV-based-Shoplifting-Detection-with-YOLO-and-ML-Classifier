@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Generated Files and Large Data
+yolov8n.pt
+runs/
+yolo_dataset/
+dataset/frames/
+shoplifting_model.joblib
+features.csv
+
+# External Git Repository (CVAT software)
+cvat/
