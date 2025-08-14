@@ -264,6 +264,5 @@ Shoplifting Detection/
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 ## **Contact**
-**[Your Name]**
-*   GitHub: [Your GitHub Profile Link]
-*   Email: [Your Email Address]
+*   GitHub: https://github.com/talha-shafique
+*   Email: talha.shafique126@gmail.com
